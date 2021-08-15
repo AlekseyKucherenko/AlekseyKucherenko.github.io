@@ -142,7 +142,49 @@ p {
     margin: 15px auto;
 }
 
-.textarea{
+.left_part{
+    text-align: left;
+    float: left;
+    margin: 30px 0px 100px 180px;
+    line-height: normal;
+}
+.left_part h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: normal;
     font-size: 20px;
-    font-weight: 600;
+    color: #384354;
+    
+}
+.left_part p{
+    line-height: 15px;
+    text-align: left;
+    line-height:30px;
+    text-indent:inherit;
+    margin: 0px 90px 40px 0px;
+    color: #3f495a;
+}
+.right_part{
+    text-align: left;
+    margin: 45px 0px 100px 180px;
+    line-height: normal;
+}
+.right_part h6{
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 20px;
+    color: #384354;
+    
+}
+.right_part p{
+    line-height: 15px;
+    text-align: left;
+    line-height:22px;
+    text-indent:inherit;
+    margin: 0px 90px 40px 0px;
+    color: #3f495a;
+}
+.calculation{
+    padding: 10px 200px;
+    text-align: center;
 }
