@@ -216,21 +216,20 @@ p {
     word-spacing:normal;
     display: inline-block;
 }
-#left{
-    display: inline-block;
-    position:absolute;
-    left: 0;
+.none{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+    float: left;
 }
-#right{
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    padding-top: 120px;
+.none1{
+    
+}
 }
 .main_statistics{
     width: 100%;
     height: auto;
-    padding-bottom: 100px;
     text-align: center;
     background: url(../img/statistics.png) center/cover no-repeat;
+    padding-top: 50px;
 }
