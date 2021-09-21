@@ -216,20 +216,139 @@ p {
     word-spacing:normal;
     display: inline-block;
 }
-.none{
+.none1{
     font-size: 18px;
     font-weight: bold;
-    line-height: 60px;
+    padding: 60px 0px 22px 300px;
     float: left;
 }
-.none1{
-    
+.none2{
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin: 40px 0px 40px -56px;
 }
+.none3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 60px 0px 10px 78%; 
+}
+.none4{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 40px 0px 22px 78%;
 }
 .main_statistics{
     width: 100%;
-    height: auto;
+    height: 60%;
     text-align: center;
     background: url(../img/statistics.png) center/cover no-repeat;
-    padding-top: 50px;
+    padding-top: 100px;
+}
+.main_statistics h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #263244;
+    width: 100%;
+    margin: 
+}
+.smile{
+    float: left;
+    line-height: 30px;
+    padding: 80px 0px 0px 100px; 
+}
+.staples{
+    float: left;
+    line-height: 30px;
+    padding: 80px 0px 0px 100px; 
+    line-height: 40px;
+}
+.mark{
+    float: left;
+    line-height: 30px;
+    padding: 80px 0px 0px 100px; 
+    line-height: 40px;
+}
+.cup{
+    float: none;
+    line-height: 30px;
+    padding: 80px 0px 0px 100px; 
+    line-height: 10px;
+}
+.main_statistics h4{
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 80px;
+}
+.main_statistics h5{
+    font-size: 20px;
+}
+.comment{
+    text-align: center;
+    padding: 40px auto;
+}
+.img_portrait{
+    display: block;
+    margin: 60px 0px 40px 713px;
+}
+.comment p{
+    text-align: center;
+    color: #243042;
+    padding-bottom: 20px;
+    line-height: normal;
+}
+.comment h5{
+    padding-bottom: 150px;
+}
+.contacts{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: url(../img/lastbackground.png)  center/cover no-repeat;
+}
+.contacts h2{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+.contacts p{
+    color: white;
+}
+.geo{
+    color: white;
+    float: left;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 50px 100px 35px 420px;
+}
+.letter{
+    color: white;
+    float: left;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 50px 0px 35px 0px;
+}
+.phone{
+    color: white;
+    float: none;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 50px 0px 35px 0px;
+}
+.contacts h3{
+    display: block;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+.info{
+    background-color: #d3d6dc;
+    display: block;
+    margin: 0px auto;
+    width: 891px;
+    height: 55px;
+    border: 25px
 }
