@@ -1,59 +1,60 @@
-body{
+body {
     font-family: Arial, sans-serif;
 }
 
-nav{
+nav {
     width: 100%;
     height: 60px;
     background: #344051;
 }
 
-.logo{
+.logo {
     color: #fff;
     font-size: 28px;
     line-height: 60px;
     padding-left: 300px;
     float: left;
 }
-.menu{
+
+.menu {
     float: left;
-    padding-left:400px; 
+    padding-left: 400px;
 }
 
-.menu li{
+.menu li {
     float: left;
     line-height: 60px;
     color: #fff;
     margin-right: 40px;
     font-size: 16px;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 
-.main{
+.main {
     width: 100%;
     height: calc(100% - 60px);
-    background: url(../img/boy.png) 95% 100%/auto 85% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
+    background: url(../img/boy.png) 95% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
 
-.title__container{
+.title__container {
     float: left;
     margin: 310px 0px 0px 330px;
     color: #2c384a;
     text-align: center;
 }
 
-.title__container h1{
+.title__container h1 {
     font-size: 60px;
     font-weight: bold;
 }
 
-.title__container h4{
+.title__container h4 {
     margin-top: 40px;
     font-size: 22px;
     color: #aaaeb7;
 }
 
-.title__container input{
+.title__container input {
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -63,9 +64,10 @@ nav{
     font-size: 13px;
     padding: 0px 16px;
     margin: 50px 14px 0px 14px;
-    
+
 }
-h2{
+
+h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 36px;
@@ -74,13 +76,14 @@ h2{
     color: #263244;
     width: 100%;
 }
-.line{
+
+.line {
     width: auto;
     margin: 20px auto;
     display: block;
 }
 
-.icon{
+.icon {
     width: auto;
     padding: 3% 44% 0% 44%;
 }
@@ -91,25 +94,28 @@ p {
     line-height: 30px;
     margin-top: 20px;
 }
-.resume{
+
+.resume {
     height: 38px;
     border: 2px solid #6f707e;
     background: none;
     border-radius: 5px;
     color: #6f707e;
     font-size: 13px;
-    margin:50px 47%;
+    margin: 50px 47%;
 }
-.item_skills{
+
+.item_skills {
     width: 100%;
     height: 520px;
     background: url(../img/computer.jpg) center/cover no-repeat;
 }
 
-.item_skills h2{
+.item_skills h2 {
     padding-top: 100px;
 }
-.icons{
+
+.icons {
     float: left;
     line-height: 10px;
     width: 300px;
@@ -117,91 +123,103 @@ p {
     padding: 50px 15px 0px 15px;
 }
 
-.item_icons{
+.item_icons {
     display: block;
-    margin: 0px auto; 
+    margin: 0px auto;
     color: #313d4e;
 }
-.icons h4{
+
+.icons h4 {
     text-align: center;
     color: #cf7600;
     font-weight: 600;
     padding: 30px 0px 20px 0px;
 }
-.icons p{
+
+.icons p {
     text-align: center;
     line-height: normal;
     color: #3f495a;
 }
-#cases{
+
+#cases {
     text-align: center;
     padding-top: 20px;
 }
-.screenshot{
-     display: block;
+
+.screenshot {
+    display: block;
     background-position: center;
     margin: 15px auto;
 }
 
-.left_part{
+.left_part {
     text-align: left;
     float: left;
     margin: 30px 0px 100px 180px;
     line-height: normal;
 }
-.left_part h6{
+
+.left_part h6 {
     text-transform: uppercase;
     font-weight: bold;
     line-height: normal;
     font-size: 20px;
     color: #384354;
-    
+
 }
-.left_part p{
+
+.left_part p {
     line-height: 15px;
     text-align: left;
-    line-height:30px;
-    text-indent:inherit;
+    line-height: 30px;
+    text-indent: inherit;
     margin: 0px 90px 40px 0px;
     color: #3f495a;
 }
-.right_part{
+
+.right_part {
     text-align: left;
     margin: 45px 0px 100px 180px;
     line-height: normal;
 }
-.right_part h6{
+
+.right_part h6 {
     font-weight: bold;
     line-height: 20px;
     font-size: 20px;
     color: #384354;
-    
+
 }
-.right_part p{
+
+.right_part p {
     line-height: 15px;
     text-align: left;
-    line-height:22px;
-    text-indent:inherit;
+    line-height: 22px;
+    text-indent: inherit;
     margin: 0px 90px 40px 0px;
     color: #3f495a;
 }
-.calculation{
+
+.calculation {
     background-color: #eeeeee;
     display: block;
     margin: 0px auto;
     width: 891px;
     height: 55px;
 }
-.main_calc h3{
+
+.main_calc h3 {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
     color: #263244;
     width: 70%;
     margin: 190px 0px 40px 0px;
-    
+
 }
-.main_calc h5{
+
+.main_calc h5 {
     text-align: left;
     text-transform: uppercase;
     font-size: 22px;
@@ -210,149 +228,199 @@ p {
     width: 100%;
     padding: 40px 280px 15px 315px;
 }
-.main_calc h6{
+
+.main_calc h6 {
     font-size: 20px;
     font-weight: 600;
     color: #1c2534;
     width: 100%;
     padding: 40px 150px 100px 300px;
-    word-spacing:normal;
+    word-spacing: normal;
     display: inline-block;
 }
-.none1{
+
+.none1 {
     font-size: 18px;
     font-weight: bold;
     margin: 60px 0px 22px 420px;
     float: left;
 }
-.none2{
+
+.none2 {
     font-size: 18px;
     font-weight: bold;
     float: left;
     margin: 40px 0px 40px -56px;
 }
-.none3{
+
+.none3 {
     font-size: 18px;
     font-weight: bold;
-    padding: 60px 0px 10px 78%; 
+    padding: 60px 0px 10px 78%;
 }
-.none4{
+
+.none4 {
     font-size: 18px;
     font-weight: bold;
     padding: 40px 0px 22px 78%;
 }
-.main_statistics{
+
+.main_statistics {
     width: 100%;
     height: 60%;
     text-align: center;
     background: url(../img/statistics.png) center/cover no-repeat;
     padding-top: 100px;
 }
-.main_statistics h3{
+
+.main_statistics h3 {
     text-align: center;
     font-size: 30px;
     font-weight: 600;
     color: #263244;
     width: 100%;
 }
-.smile{
+
+.smile {
     float: left;
     line-height: 30px;
-    padding: 80px 0px 0px 100px; 
+    padding: 80px 0px 0px 100px;
+    margin-left: 160px;
 }
-.staples{
+
+.staples {
     float: left;
     line-height: 30px;
-    padding: 80px 0px 0px 100px; 
+    padding: 80px 0px 0px 100px;
     line-height: 40px;
 }
-.mark{
+
+.mark {
     float: left;
     line-height: 30px;
-    padding: 80px 0px 0px 100px; 
+    padding: 80px 0px 0px 100px;
     line-height: 40px;
 }
-.cup{
+
+.cup {
     float: left;
-    padding: 80px 0px 0px 100px; 
+    padding: 80px 0px 0px 100px;
     line-height: 10px;
 }
-.main_statistics h4{
+
+.main_statistics h4 {
     font-size: 35px;
     font-weight: bolder;
     line-height: 80px;
 }
-.main_statistics h5{
+
+.main_statistics h5 {
     font-size: 20px;
 }
-.comment{
+
+.comment {
     text-align: center;
     padding: 40px auto;
 }
-.img_portrait{
+
+.img_portrait {
     display: block;
     margin: 60px 0px 40px 713px;
 }
-.comment p{
+
+.comment p {
     text-align: center;
     color: #243042;
     padding-bottom: 20px;
     line-height: normal;
 }
-.comment h5{
+
+.comment h5 {
     padding-bottom: 150px;
 }
-.contacts{
-    height: auto;
+
+.contacts {
+    height: 850px;
     width: 100%;
     text-align: center;
-    background: url(../img/lastbackground.png)  center/cover no-repeat;
+    background: url(../img/lastbackground.png) center/cover no-repeat;
 }
-.contacts h2{
+
+.contacts h2 {
     color: white;
     padding-top: 100px;
     text-align: center;
 }
-.contacts p{
+
+.contacts p {
     color: white;
 }
-.geo{
+
+.geo {
     color: white;
-    float: left;
+    display: inline-block;
     font-size: 16px;
     line-height: 25px;
-    padding: 50px 100px 35px 420px;
+    padding: 50px 100px 35px 0px;
 }
-.letter{
+
+.letter {
     color: white;
-    float: left;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 50px 100px 35px 0px;
+}
+
+.phone {
+    color: white;
+    display: inline-block;
     font-size: 16px;
     line-height: 35px;
-    padding: 50px 0px 35px 0px;
+    padding: 50px 0px 20px 0px;
 }
-.phone{
-    color: white;
-    float: none;
-    font-size: 16px;
-    line-height: 35px;
-    padding: 50px 0px 35px 0px;
-}
-.contacts h3{
+
+.contacts h3 {
     display: block;
     font-size: 22px;
     text-transform: uppercase;
     color: white;
     text-align: center;
     padding: 40px 0px 20px 0px;
-    float:none;
+    float: none;
 }
-.info{
+
+.info {
     background-color: #d3d6dc;
     display: block;
     width: 354px;
     height: 36px;
     float: left;
     margin-right: 25px;
-    
-    
+    padding: 20px 10px;
+}
+.info1 {
+    background-color: #d3d6dc;
+    display: block;
+    width: 354px;
+    height: 36px;
+    float: none;
+    margin-right: 25px;
+    padding: 20px 10px;
+}
+.form{
+    margin-left: 392px;
+}
+textarea{
+    background-color: #d3d6dc;
+    display: block;
+    margin: 20px auto;
+    padding: 45px 293px;
+}
+.send{
+    margin: 40px auto;
+    display: block;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
 }
